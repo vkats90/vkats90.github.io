@@ -19,13 +19,13 @@ const TopBar = () => {
       <Hamburger />
       <div
         id="logo"
-        className="flex-none flex flex-col  flex-grow md:flex-none text-center md:text-left cursor-pointer"
+        className="flex-none flex flex-col  flex-grow md:flex-none text-center md:text-left cursor-pointer group "
         onClick={() => navigate('/')}
       >
-        <h1 className="text-xl md:text-2xl font-Bebas ">
+        <h1 className="text-xl md:text-2xl font-Bebas transition duration-300 group-hover:translate-x-1 ">
           VL<span className="text-primary">A</span>D
         </h1>
-        <h1 className="-my-3 translate-x-2    p-0 text-xl md:text-2xl font-Bebas">
+        <h1 className="-my-3 translate-x-2 p-0 text-xl md:text-2xl font-Bebas transition duration-300 group-hover:!-translate-x-1">
           K<span className="text-primary">A</span>TS
         </h1>
       </div>

@@ -3,6 +3,7 @@ import ProjectCard from '../components/ProjectCard'
 import Shackleton from '../assets/Shackleton.jpg'
 import Shinobi from '../assets/Shinobi.jpg'
 import API from '../assets/API.webp'
+import InventoryManager from '../assets/InventoryManager.png'
 import FamilySecrets from '../assets/FamilySecrets .png'
 import { InView } from 'react-intersection-observer'
 import MainButton from '../components/mainBotton'
@@ -108,43 +109,30 @@ const projects = [
     description: (
       <div>
         <p>
-          Developed a comprehensive inventory management API using TypeScript, GraphQL, and MongoDB.
-          This backend project features:
+          This project is a full-stack inventory management application that allows users to manage
+          their inventory of products. The application is built using TypeScript, GraphQL, and
+          MongoDB. The project leverages the following features:
         </p>
         <br />
         <ul className="list-disc ml-5">
+          <li>Authentication and session management using JWT and cookies.</li>
+          <li>React router 6.4 for seamless navigation between different views and components.</li>
           <li>
-            Finished Inventory Management: Endpoints for managing completed products, allowing for
-            efficient tracking and updates of inventory levels.
+            GraphQL with Apollo Server and Client using the new pre-loading feature to fetch data.
           </li>
-          <li>
-            Unfinished Inventory Management: Endpoints for handling parts and pieces, enabling
-            detailed tracking of inventory components and assembly status.
-          </li>
-          <li>
-            User Management: Robust user management endpoints, providing functionalities for user
-            authentication, authorization, and profile management.
-          </li>
-          <li>
-            Utilized GraphQL to create a flexible and efficient API, enabling users to query exactly
-            the data they need.
-          </li>
-          <li>
-            Integrated MongoDB for scalable and high-performance data storage. Implemented unit
-            tests using Jest to ensure code reliability and maintainability.
-          </li>
+          <li>MongoDB: Used MongoDB to store and manage inventory data efficiently.</li>
         </ul>
         <br />
         <p>
-          This project demonstrates my capability to build powerful and scalable backend solutions
-          with modern technologies and a strong focus on quality assurance.
+          Currently working on adding more features to the application, such as user roles and
+          permissions, inventory fetching from external APIs like shopify, and more.
         </p>
       </div>
     ),
-    projectLink: '',
+    projectLink: 'https://inventory-manager-ajbf.onrender.com',
     githubLink: 'https://github.com/vkats90/Inventory-Manager',
-    technologies: ['TypeScript', 'GraphQL', 'MongoDB', 'Jest'],
-    imageUrl: API,
+    technologies: ['TypeScript', 'GraphQL', 'MongoDB'],
+    imageUrl: InventoryManager,
   },
   {
     title: 'Family Secrets Series - Portal for Tabletop Game',
@@ -223,7 +211,7 @@ const Projects: React.FC = () => {
       </InView>
       <div className="flex flex-wrap justify-center gap-5">
         <ProjectCard key={1} {...projects[0]} />
-        <ProjectCard key={3} {...projects[3]} />
+        <ProjectCard key={2} {...projects[2]} />
       </div>
       <InView rootMargin="-100px 0px">
         {({ inView: inView2, ref: ref2 }) => (
@@ -243,7 +231,7 @@ const Projects: React.FC = () => {
       </InView>
       <div className="flex flex-wrap justify-center gap-5">
         <ProjectCard key={1} {...projects[1]} />
-        <ProjectCard key={2} {...projects[2]} />
+        <ProjectCard key={3} {...projects[3]} />
       </div>
       <InView rootMargin="-100px 0px">
         {({ inView: inView3, ref: ref3 }) => (
@@ -305,7 +293,7 @@ const Projects: React.FC = () => {
       <MainButton
         className="mt-8 scale-75 md:scale-90"
         onClick={() => window.open('https://github.com/vkats90')}
-        text="VISIT MY GITHUB"
+        text="VISIT GITHUB"
       />
     </div>
   )

@@ -88,8 +88,7 @@ const Home = () => {
               completing the Full Stack Open Online Course from the University of Helsinki and the
               freeCodeCamp online course. I am eager to bring my skills in modern web development to
               a forward-thinking team, where I can contribute to building innovative solutions and
-              driving digital growth. Let's connect and explore how I can add value to your web
-              development projects.
+              driving digital growth. Let's connect and explore how I can add value to your company.
             </p>
           </div>
         )}
