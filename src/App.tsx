@@ -6,6 +6,8 @@
 import { createContext, useState } from 'react'
 import { Outlet } from 'react-router-dom'
 import TopBar from './components/topbar'
+import Footer from './components/footer'
+
 import 'yet-another-react-lightbox/styles.css'
 
 const ViewContext = createContext({ inView: false, setInView: (_value: boolean) => {} })
@@ -17,6 +19,7 @@ function App() {
       <div className="relative bg-backg">
         <TopBar />
         <Outlet />
+        <Footer />
       </div>
     </ViewContext.Provider>
   )

@@ -87,7 +87,7 @@ const experience = [
   {
     position: 'Operations Manager',
     company: 'Mobile Escape',
-    period: 'Jul 2022 - Present (1 year 11 months)',
+    period: 'Jul 2022 - Aug 2025 (3 years 1 month)',
     description: (
       <div>
         Promoted to Operations Manager to spearhead the development and growth of the e-commerce

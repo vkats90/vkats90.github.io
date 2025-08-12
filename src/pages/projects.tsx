@@ -7,7 +7,7 @@ import InventoryManager from '../assets/InventoryManager.png'
 import FamilySecrets from '../assets/FamilySecrets .png'
 import { InView } from 'react-intersection-observer'
 import MainButton from '../components/mainBotton'
-import E2022 from '../assets/2022.png'
+import E2025 from '../assets/2025.png'
 import E2023 from '../assets/2023.png'
 import E2024 from '../assets/2024.png'
 
@@ -244,7 +244,7 @@ const Projects: React.FC = () => {
           >
             <h1 className="text-3xl md:text-5xl my-16 font-Bebas">I've been busy</h1>
             <p className="relative p-5 text-lg text-left z-10 text-gray-7000">
-              Besides the project up top over the last 2 years I've built numerous cookie cutter
+              Besides the projects up top, over the last 2 years I've built numerous cookie cutter
               style projects to learn new technologies and improve my skills. Take a look at my
               Github commit history:
             </p>
@@ -256,11 +256,11 @@ const Projects: React.FC = () => {
           <div
             id="more"
             ref={ref4}
-            className={`text-center my-2 w-fit bg-white/25 mx-auto max-w-[90%] md:max-w-[50%]  overflow-hidden transition duration-500 ease-in ${
+            className={`text-center my-2 w-[700px] bg-white/25 mx-auto max-w-[90%] md:max-w-[50%]  overflow-hidden transition duration-500 ease-in ${
               inView4 ? 'opacity-1' : 'opacity-0 translate-x-10 blur-md'
             }`}
           >
-            <img src={E2022} alt="2022" />
+            <img src={E2023} alt="2023" />
           </div>
         )}
       </InView>
@@ -269,11 +269,11 @@ const Projects: React.FC = () => {
           <div
             id="more"
             ref={ref5}
-            className={`text-center my-2 w-fit bg-white/25 mx-auto max-w-[90%] md:max-w-[50%]   overflow-hidden transition duration-500 ease-in ${
+            className={`text-center my-2 w-[700px] bg-white/25 mx-auto max-w-[90%] md:max-w-[50%]   overflow-hidden transition duration-500 ease-in ${
               inView5 ? 'opacity-1' : 'opacity-0 -translate-x-10 blur-md'
             }`}
           >
-            <img src={E2023} alt="2023" />
+            <img src={E2024} alt="2024" />
           </div>
         )}
       </InView>
@@ -282,11 +282,11 @@ const Projects: React.FC = () => {
           <div
             id="more"
             ref={ref6}
-            className={`text-center my-2 w-fit bg-white/25 mx-auto max-w-[90%] md:max-w-[50%]  overflow-hidden transition duration-500 ease-in ${
+            className={`text-center my-2 w-[700px] bg-white/25 mx-auto max-w-[90%] md:max-w-[50%]  overflow-hidden transition duration-500 ease-in ${
               inView6 ? 'opacity-1' : 'opacity-0 translate-x-10 blur-md'
             }`}
           >
-            <img src={E2024} alt="2024" />
+            <img src={E2025} alt="2025" />
           </div>
         )}
       </InView>

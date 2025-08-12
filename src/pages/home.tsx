@@ -12,7 +12,7 @@ import Gallery from '../components/gallery'
 
 const highLightsData = [
   {
-    title: '2 years of FrontEnd Development',
+    title: '3 years of FrontEnd Development',
     text: "I've built and maintained dynamic web applications used by hundreds of users weekly.",
     link: '/projects',
     icon: faCode,
@@ -24,7 +24,7 @@ const highLightsData = [
     icon: faGrav,
   },
   {
-    title: '4 years of e-commerce management',
+    title: '5 years of e-commerce management',
     text: "I've been managing e-commerce operations for 4 years, including inventory management and automated processes.",
     link: '/resume',
     icon: faBriefcase,
