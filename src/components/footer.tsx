@@ -1,4 +1,4 @@
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAnglesUp } from '@fortawesome/free-solid-svg-icons'
 import { ViewContext } from '../App'
@@ -6,7 +6,7 @@ import { useContext } from 'react'
 
 const Footer = () => {
   const { inView } = useContext(ViewContext)
-  const navigate = useNavigate()
+  const location = useLocation()
   return (
     <div
       className={`flex flex-row  w-full  px-5  h-10 z-30  ${
